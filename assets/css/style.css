@@ -7,8 +7,12 @@ h1 {
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
-    width: 70em; /* adjusts width, from left to right */
+    width: 55em; /* adjusts width, from left to right */
     margin-left: auto; /* auto sets to center */
     margin-right: auto;
     padding: 1em;
+}
+
+h2.aboutMe {
+    color: #4aaaa5;
 }
