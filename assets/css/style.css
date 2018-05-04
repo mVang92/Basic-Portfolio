@@ -1,0 +1,14 @@
+h1 {
+    
+}
+
+#boxAboutMe {
+    background: #ffffff;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #dddddd;
+    width: 70em; /* adjusts width, from left to right */
+    margin-left: auto; /* auto sets to center */
+    margin-right: auto;
+    padding: 1em;
+}
