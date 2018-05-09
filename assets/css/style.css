@@ -6,10 +6,10 @@ body {
 h1 {
     font-family: "Georgia", Times, Times New Roman, serif;
     color: #ebebeb;
-    background: #777;    
+    background: #4aaaa5;    
     padding: 25px;
     margin-top: 15px;
-    margin-left: 185px;
+    margin-left: 178px;
     width: 200px;
     height: 35px;
 }
@@ -24,10 +24,12 @@ h1 {
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
+    margin-bottom: 20px;
     width: 960px; /* adjusts width, from left to right */
     margin-left: auto; /* auto sets to center */
     margin-right: auto;
     padding: 1em;
+    line-height: 35px; /* adds spaces between lines */
 }
 
 .aboutMe {
@@ -35,9 +37,14 @@ h1 {
 }
 
 #mainNav {
+    color: white;
     float: right;
     margin-top: -70px;
-    margin-right: 185px;
+    margin-right: 178px;
+}
+
+#mainNav :link{
+    color: white;
 }
 
 #meng {
