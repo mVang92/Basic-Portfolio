@@ -1,5 +1,16 @@
+body {
+    margin: auto;
+    width: 960px;
+}
+
 h1 {
-    
+    color: #ebebeb;
+    background: #777;    
+    padding: 25px;
+    margin-top: 15px;
+    width: 180px;
+    height: 35px;
+    margin-left: 22px;
 }
 
 #boxAboutMe {
@@ -11,8 +22,13 @@ h1 {
     margin-left: auto; /* auto sets to center */
     margin-right: auto;
     padding: 1em;
+    opacity: 0.8;
 }
 
 h2.aboutMe {
     color: #4aaaa5;
+}
+
+#mainNav {
+    float: right;
 }
