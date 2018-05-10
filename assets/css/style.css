@@ -37,26 +37,51 @@ h1 {
 }
 
 #mainNav {
-    background-color: white;
     color: white;
     float: right;
     margin-top: -70px;
     margin-right: 178px;
 }
 
-#about:hover {
-    background-color: #555;
+#about, #portfolio, #contact {
     color: white;
+    text-decoration: none; /*gets rid of that underline*/
+}
+
+#about:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
 }
 
 #portfolio:hover {
-    background-color: #555;
-    color: white;
+    background-color: white;
+    color: black;
+    text-decoration: none;
 }
 
 #contact:hover {
-    background-color: #555;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+#about:active {
+    background-color: #4aaaa5;
     color: white;
+    text-decoration: none;
+}
+
+#portfolio:active {
+    background-color: #4aaaa5;
+    color: white;
+    text-decoration: none;
+}
+
+#contact:active {
+    background-color: #4aaaa5;
+    color: white;
+    text-decoration: none;
 }
 
 #meng {
