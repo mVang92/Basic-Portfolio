@@ -37,13 +37,25 @@ h1 {
 }
 
 #mainNav {
+    background-color: white;
     color: white;
     float: right;
     margin-top: -70px;
     margin-right: 178px;
 }
 
-#mainNav :link{
+#about:hover {
+    background-color: #555;
+    color: white;
+}
+
+#portfolio:hover {
+    background-color: #555;
+    color: white;
+}
+
+#contact:hover {
+    background-color: #555;
     color: white;
 }
 
