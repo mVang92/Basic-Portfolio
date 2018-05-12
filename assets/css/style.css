@@ -99,6 +99,15 @@ h1 {
     margin-right: 40px;
 }
 
+.input {
+    width: 956px;
+}
+
+.message {
+    width: 956px;
+    height: 100px;
+}
+
 #footer {
     clear: both;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
