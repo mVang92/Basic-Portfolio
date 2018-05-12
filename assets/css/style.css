@@ -32,12 +32,12 @@ h1 {
     border-style: solid;
     border-color: #dddddd;
     margin-top: 90px;
+    margin-bottom: 100px;
     padding: 1em;
     line-height: 30px; /* adds spaces between lines */
 }
 
 #contactBox {
-    
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
@@ -66,12 +66,10 @@ h1 {
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 220px;
+    margin-top: 90px;
+    margin-bottom: 100px;
     padding: 1em;
-    width: 960px; /* adjusts width, from left to right */
-    height: 500px;
+    height: 525px;
 }
 
 .aboutMe, .contact, .portfolio {
@@ -144,7 +142,8 @@ h1 {
 
 .project {
     float:left;
-    margin-right: 40px;
+    margin-left: 37px;
+    margin-right: 25px;
 }
 
 .tag {
