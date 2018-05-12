@@ -19,7 +19,7 @@ h1 {
     height: 35px;
 }
 
-#boxAboutMe {
+#box {
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
@@ -32,7 +32,7 @@ h1 {
     line-height: 30px; /* adds spaces between lines */
 }
 
-.aboutMe {
+.aboutMe, .contact, .portfolio {
     color: #4aaaa5;
 }
 
