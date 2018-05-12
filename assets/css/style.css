@@ -19,7 +19,7 @@ h1 {
     height: 35px;
 }
 
-#aboutBox {
+#aboutBox{
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
@@ -33,28 +33,40 @@ h1 {
 }
 
 #contactBox {
-    float: left;
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
     margin-bottom: 20px;
     margin-left: 177px;
-    width: 737px; /* adjusts width, from left to right */
+    width: 700px; /* adjusts width, from left to right */
     padding: 1em;
     line-height: 30px; /* adds spaces between lines */
 }
 
 #connectBox {
-    float: left;
+    float: right;
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
-    margin-bottom: 20px;
-    margin-left: 177px;
+    margin-top: -438px;
+    margin-right: 177px;
     padding: 1em;
     width: 223px; /* adjusts width, from left to right */
+}
+
+#portfolioBox {
+    background: #ffffff;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 220px;
+    padding: 1em;
+    width: 960px; /* adjusts width, from left to right */
+    height: 500px;
 }
 
 .aboutMe, .contact, .portfolio {
@@ -125,25 +137,42 @@ h1 {
     margin-right: 40px;
 }
 
+.project {
+    float:left;
+    margin-right: 40px;
+}
+
+.tag {
+    position:relative;
+    bottom: 50px;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    background-color:rgb(156, 156, 156) ;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .input {
-    width: 734px;
+    width: 697px;
 }
 
 .message {
-    width: 956px;
+    width: 697px;
     height: 100px;
 }
 
-#footer {
-    clear: both;
+footer {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 15px;
-    background-color: rgb(100, 100, 100);
+    background: rgb(100, 100, 100);
     border-top-color: #dddddd;
     color: white;
-    height: 50px;
     text-align: center;
-    padding-top: 10px;
-    border-top-style: solid;
-    border-top-width: 3px;
+    line-height: 50px;
+}
+
+  .footer,
+.push {
+  height: 50px;
 }
