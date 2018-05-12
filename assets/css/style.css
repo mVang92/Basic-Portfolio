@@ -37,9 +37,10 @@ h1 {
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: 177px;
-    width: 700px; /* adjusts width, from left to right */
+    width: 690px; /* adjusts width, from left to right */
+    height: 380px;
     padding: 1em;
     line-height: 30px; /* adds spaces between lines */
 }
@@ -50,10 +51,9 @@ h1 {
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
-    margin-top: -438px;
     margin-right: 177px;
+    margin-top: -465px;
     padding: 1em;
-    width: 223px; /* adjusts width, from left to right */
 }
 
 #portfolioBox {
@@ -155,15 +155,16 @@ h1 {
 }
 
 .input {
-    width: 697px;
+    width: 687px;
 }
 
 .message {
-    width: 697px;
+    width: 687px;
     height: 100px;
 }
 
 footer {
+    clear: both;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: rgb(100, 100, 100);
     border-top-color: #dddddd;
@@ -172,7 +173,7 @@ footer {
     line-height: 50px;
 }
 
-  .footer,
+.footer,
 .push {
   height: 50px;
 }
