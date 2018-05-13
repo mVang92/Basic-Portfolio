@@ -17,7 +17,7 @@ header {
 
 h1 {
     font-family: "Georgia", Times, Times New Roman, serif;
-    color: black;
+    color: white;
     background-color: rgb(175, 175, 175);
     margin-left: 25%;
     margin-top: 0px;
@@ -26,39 +26,41 @@ h1 {
     padding: 17px;
 }
 
-#aboutBox{
+#aboutBox {
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
     margin-top: 90px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding: 1em;
     line-height: 30px; /* adds spaces between lines */
 }
 
 #contactBox {
+    width: 45%;
+    height: 400px;
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
+    margin-top: 90px;
     margin-bottom: 50px;
-    margin-left: 177px;
-    width: 690px; /* adjusts width, from left to right */
-    height: 380px;
     padding: 1em;
     line-height: 30px; /* adds spaces between lines */
 }
 
 #connectBox {
     float: right;
+    width: 45%;
+    height: 400px;
     background: #ffffff;
     border-width: 0.1em;
     border-style: solid;
     border-color: #dddddd;
-    margin-right: 177px;
-    margin-top: -465px;
     padding: 1em;
+    margin-bottom: 50px;
+    margin-top: -485px;
 }
 
 #portfolioBox {
@@ -140,7 +142,7 @@ h1 {
     margin-right: 40px;
 }
 
-.project {
+.pictures {
     float:left;
     margin-left: 37px;
     margin-right: 25px;
@@ -159,11 +161,11 @@ h1 {
 }
 
 .input {
-    width: 687px;
+    width: 300px;
 }
 
 .message {
-    width: 687px;
+    width: 300px;
     height: 100px;
 }
 
